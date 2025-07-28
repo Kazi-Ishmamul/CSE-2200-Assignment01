@@ -5,6 +5,7 @@ import Profile from './Pages/Profile';
 import NavBar from './Pages/NavBar';
 
 const App = () => {
+
   return (
     <Router>
       <NavBar />
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
+    
   );
 };
 
