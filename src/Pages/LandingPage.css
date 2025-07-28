@@ -1,0 +1,123 @@
+/* src/Pages/LandingPage.css */
+
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.author-link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.reactions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.reaction-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.reaction-box:hover {
+  background-color: #e0e0e0;
+}
+
+.reaction-icon {
+  font-size: 1.2rem;
+  user-select: none;
+}
+
+/* Active reaction backgrounds */
+.active-like {
+  background-color: #d4edda !important;
+  color: green;
+}
+
+.active-love {
+  background-color: #f8d7da !important;
+  color: red;
+}
+
+.active-angry {
+  background-color: #fff3cd !important;
+  color: orange;
+}
+
+.comments {
+  margin-top: 1rem;
+  border-top: 1px solid #eee;
+  padding-top: 0.5rem;
+}
+
+.comment {
+  padding: 0.5rem 0;
+  border-top: 1px solid #eee;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-btn {
+  padding: 0.4rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.page-btn:hover {
+  background-color: #0056b3;
+}
+
+.page-btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.active-page {
+  background-color: #0056b3;
+  font-weight: bold;
+  cursor: default;
+}
+
+.trending-tech {
+  margin-top: 3rem;
+}
+
+.trending-tech ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.trending-tech li {
+  margin-bottom: 0.4rem;
+}
