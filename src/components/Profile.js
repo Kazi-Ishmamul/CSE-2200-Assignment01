@@ -8,7 +8,7 @@ function Profile() {
         <div className={styles.avatar}></div>
         <div>
           <h2>Kazi Ishmamul Haque</h2>
-          <p>Joined: 5 February 2025</p>
+          <p>Joined: 10 May 2025</p>
         </div>
       </div>
 
