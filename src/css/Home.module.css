@@ -1,0 +1,235 @@
+.pageWrapper {
+  background-color: #f0f4f8; 
+  min-height: 100vh;
+  padding: 2rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.homeContainer {
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f8fafc; 
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumb {
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.postTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2e3a59; 
+}
+
+.postSubText {
+  color: #546e7a; 
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.imageBox {
+  height: 150px;
+  background-color: #003f5c; 
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.caption {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.authorInfo {
+  margin-bottom: 1rem;
+}
+
+.authorFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #00796b;
+}
+
+.authorButton {
+  background: none;
+  border: none;
+  color: #00796b;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  font-size: 16px;
+}
+
+.authorDate {
+  font-size: 12px;
+  color: gray;
+  margin-top: 2px;
+}
+
+.divider {
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.postBody {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #2e3a59; 
+}
+
+.reactionSummary {
+  background-color: #e0f2f1; 
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.reactionContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.reactionButton {
+  padding: 6px 14px;
+  background-color: #ffffff;
+  color: #00796b;
+  border: 1px solid #00796b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reactionButton:hover {
+  background-color: #00796b;
+  color: white;
+}
+
+.selected {
+  background-color: #00796b;
+  color: white;
+}
+
+.reactionStats {
+  font-size: 14px;
+  color: #333;
+}
+
+.commentSection {
+  background-color: #ffffff; 
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.commentInputBox {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.commentInputBox input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.commentInputBox button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.commentInputBox button:hover {
+  background-color: #004d40;
+}
+
+.commentBox {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.commentBox p {
+  margin: 6px 0 0 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.commentActions {
+  font-size: 13px;
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 10px;
+  color: #00796b;
+  cursor: pointer;
+}
+
+.commentActions span {
+  user-select: none;
+}
+
+
+.commentDate {
+  font-size: 12px;
+  font-weight: normal;
+  color: gray;
+  margin: 2px 0 8px 0;
+}
+
+.pagination {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.pagination button {
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #b2dfdb;
+}
+
+.pagination button.selected {
+  background: #00796b;
+  color: white;
+}

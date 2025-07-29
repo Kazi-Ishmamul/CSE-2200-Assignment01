@@ -1,21 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './Pages/LandingPage';
-import Profile from './Pages/Profile';
-import NavBar from './Pages/NavBar';
+import Home from './components/Home';
+import Profile from './components/Profile';
 
-const App = () => {
-
+function App() {
   return (
     <Router>
-      <NavBar />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/author" element={<Profile />} />
       </Routes>
     </Router>
-    
   );
-};
+}
 
 export default App;
+
